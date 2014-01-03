@@ -1,0 +1,44 @@
+%this is the way to start the document.you can change the documents
+%several settings by just changing the document class 
+\documentclass{article}
+
+%this is the way to include the packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+%a way to start the document, all the formatting of the document is
+%performed before this step
+\begin{document}
+
+    %this is the way to create a title.this is the LaTeX's default tag
+    %to set the title and its not displayed until you maketitle it
+    \title{My first \LaTeX{} Document}
+    \author{kaushal bondada}
+    \maketitle
+
+    %no indent to leave no space to start of the paragraph
+    \noindent Hello world!!! \textbf{i am kaushal} \textit{i dont
+    know what you are} \texttt{talking}
+
+    %this is a comment. empty line is the way to create new paragraph
+    \noindent this is not a comment
+
+    %this is the way to create the lists and auto number all of
+    %them
+    %this command starts the list
+    \begin{enumerate}
+        %this is how you mark each item and explicitly number them
+        %by placing in the square brackets
+        \item[2.]  this is first
+            %this is the way to create the sublists and similarly
+            %you can explicitly specify
+            \begin{enumerate}
+                \item this is sublist one
+                \item this is sublist two
+            \end{enumerate}
+        \item[3.] this is second
+        \item[4.] this is third
+    \end{enumerate}
+\end{document}
+
