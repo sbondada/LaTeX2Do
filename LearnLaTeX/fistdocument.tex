@@ -110,5 +110,66 @@
     \end{bmatrix}
     $
 
+    %frac{}{} is for fraction,first enclosure for numerator and
+    %second enclosure for denominator
+    %dfrac{}{} is same as frac with a better display for fraction
+    %sqrt{} for square root
+    %int for integral
+    %pm for plus minus
+
+    \noindent \textbf{My seventh part is on fractions, integral and
+    squareroots}
+
+    \noindent here we try to explain how to use the fractions.it
+    works with the keywork frac $\frac{x^2}{x^3}$
+
+    \noindent from the above we see the fraction as small to
+    increase the size we use dfrac $\dfrac{x^2}{x^3}$
+
+    \noindent similarly we can print the dicriminat formualae using
+    latex as $\dfrac{b\pm\sqrt{b^2+4ac}}{2a}$
+ 
+    \noindent this shows a way to use integrals in document by
+    using the keyword int as $\int_a^bf(x)dx$
+    
+    \noindent \textbf{My eighth part is on in-line,centered and
+    align}
+
+    %$eq$ is used for inline.the latex adjusts all the line in such
+    %a way that they align in a line
+    %$$eq$$ is a single command similar to \\
+    %\begin{center}$eq$\end{center}\\
+    % align is a block used to align specific to some parameters
+    % without use of $
+    %its always better to keep an space after the latex keyword
+
+    \noindent here we write an equation using in-line,which is
+    $\sin{\sqrt{x^{\sin{x}}}}$ and if we use the centered to print
+    the equation like this we see $$\sin{\sqrt{x^{\sin{x}}}}$$ and
+    now using the align block 
+    \begin{align*}
+        0&= x^2\pm x^{\frac{1}{2}}+2 \\
+         & \therefore \\
+        x&= 1,\sqrt{2} 
+    \end{align*}
+
+    \noindent \textbf{My Ninth part is on table}
+
+    \noindent this is the start of the a way to add a table
+    %center is to align th ewhole table to center
+    \begin{center}
+        %this is a tabular block r specifes right and c for center
+        %and | for horizontal line between 1st and 2nd column
+        \begin{tabular}{r|cccc}
+            %all equations should be enclosed in $
+            $x$ &1 &2 &3 &4 \\
+            %this is for horizontal line in the table
+            \hline
+            %\sin can have ( and { but usually { is not visible in
+            %the output where as ( is visible in output. all the
+            %math terms should be in between the inline symbols
+            $\sin{x^2}$&$\frac{1}{\sqrt{2}}$&0.23&0.9&0.1 
+        \end{tabular}
+    \end{center} 
 \end{document}
 
