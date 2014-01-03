@@ -13,16 +13,25 @@
 
     %this is the way to create a title.this is the LaTeX's default tag
     %to set the title and its not displayed until you maketitle it
-    \title{My first \LaTeX{} Document}
+    \title{My tutorial on \LaTeX{} }
     \author{kaushal bondada}
     \maketitle
 
+    \noindent \textbf{My first part on styles}
+
+    
     %no indent to leave no space to start of the paragraph
     \noindent Hello world!!! \textbf{i am kaushal} \textit{i dont
     know what you are} \texttt{talking}
 
+    \noindent \textbf{My second part on comments}
+
+
     %this is a comment. empty line is the way to create new paragraph
     \noindent this is not a comment
+
+    \noindent \textbf{My third part on enumeration}
+
 
     %this is the way to create the lists and auto number all of
     %them
@@ -40,5 +49,66 @@
         \item[3.] this is second
         \item[4.] this is third
     \end{enumerate}
+    
+    \noindent \textbf{My forth part on superscript and subscript}
+
+    %this is a simple way to use "^" to super script and "_"
+    %subscript the character after it.
+    \noindent I am superscripting the folowing text $x^2$ and subscripting
+    the text $x_y$ 
+
+    %if you want to superscript or subscript a set of characters
+    %after the command "^" or "_" then use the flower brackets
+
+    \noindent now we shall work on slightly advanced part of super
+    and sub scripting which is $x^{abd}$ and $x_{mno}$ and the most
+    advanced $x^{abc}_{mno}$
+    
+    \noindent \textbf{My fifth part is on align}
+
+    % align is used to align the equations based on "&" and prints
+    % the numbers after each line break
+    %align* does all same but do not print the equation numbers
+    % & means "lineup here"`
+    % \\ "line breaks"
+
+    \noindent we would try to solve a equation $0=x^2+2x+1$
+    \begin{align}
+        0 &= x^2+2x+1 \\
+          &= (x+1)(x+1) \\
+          &= (x+1)^2    \\
+          & \therefore  \\
+        x &= 1 ,1      
+    \end{align}
+    \begin{align*}
+        0 &= x^2+2x+1 \\
+          &= (x+1)(x+1) \\
+          &= (x+1)^2    \\
+          & \therefore  \\
+        x &= 1 ,1      
+    \end{align*}
+
+    \noindent \textbf{My sixth part is on pmatrix and bmatrix}
+
+    % $ keeps every thing in line
+    % pmatrix is for paranthesis matrix and bmatrix is for
+    % bracketed matrix
+    % & is for line up here. they need not follow a aligned as
+    % mentioned in the example
+    \noindent pmatrix
+    $
+    \begin{pmatrix}
+        1 & 2 &3 \\
+        4 &12344&6
+    \end{pmatrix}
+    $\\
+    bmatrix
+    $
+    \begin{bmatrix}
+        1 & 2 &3 \\
+        4 &5&6
+    \end{bmatrix}
+    $
+
 \end{document}
 
