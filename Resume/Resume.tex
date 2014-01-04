@@ -3,15 +3,26 @@
 %\usepackage{showframe} 
 \marginparwidth=0pt
 \marginparsep=0pt
- %\renewcommand{\sfdefault}{PTSansCaption-TLF}
+%this package includes a small set of fonts
+\usepackage{helvet}
+%this is to change the default set of fonts to the specified
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\sfdefault}{pag}
 \begin{document}
     \begin{center}
-        {\Huge Srinivasa Sai \textbf{Kaushal Bondada}}\\[0.2cm]
-        \begin{tabular}{c|c|c|c}
-            \textit{sbondada@buffalo.edu}&\textit{716-622-8639}&\textit{www.kaushalbondada.me}&\textit{www.github.com/sbondada} 
+        {\Huge \textmd{Srinivasa Sai} \textbf{Kaushal Bondada}}
+        \hspace{2ex}
+        \begin{tabular}{cc}
+            GitHub&\textit{sbondada}\\
+            Skype&\textit{kaushalb09}
+        \end{tabular}\\
+    \end{center}
+    \begin{flushleft}
+        \begin{tabular}{c|c|c}
+            \textit{sbondada@buffalo.edu}&\textit{716-622-8639}&\textit{www.kaushalbondada.me} 
         \end{tabular} \\
         \hrulefill 
-    \end{center}
+    \end{flushleft}
     \vspace{0pt}
     \begin{minipage}[t]{0.6\textwidth}
         \vspace{0pt}
