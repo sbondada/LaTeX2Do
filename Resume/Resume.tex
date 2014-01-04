@@ -1,5 +1,5 @@
 \documentclass[12pt,a4paper,oneside]{article}
-\usepackage[a4paper,left=0.3in,right=0.3in,top=0.3in,bottom=0.3in]{geometry}   \usepackage{blindtext}
+\usepackage[a4paper,left=0.2in,right=0.2in,top=0.2in,bottom=0.2in]{geometry}   \usepackage{blindtext}
 %\usepackage{showframe} 
 \marginparwidth=0pt
 \marginparsep=0pt
@@ -8,28 +8,32 @@
 %this is to change the default set of fonts to the specified
 \renewcommand{\familydefault}{\sfdefault}
 \renewcommand{\sfdefault}{pag}
+\usepackage[usenames,dvipsnames]{color}
+\definecolor{light-gray}{gray}{0.6}
 \begin{document}
     \begin{center}
-        {\Huge \textmd{Srinivasa Sai} \textbf{Kaushal Bondada}}
-        \hspace{2ex}
-        \begin{tabular}{cc}
-            GitHub&\textit{sbondada}\\
-            Skype&\textit{kaushalb09}
-        \end{tabular}\\
-    \end{center}
-    \begin{flushleft}
-        \begin{tabular}{c|c|c}
-            \textit{sbondada@buffalo.edu}&\textit{716-622-8639}&\textit{www.kaushalbondada.me} 
-        \end{tabular} \\
-        \hrulefill 
-    \end{flushleft}
+        \begin{tabular}{cl}
+            {\Huge \textmd{Srinivasa Sai} \textbf{Kaushal Bondada}}&\begin{tabular}{ll}
+                                                                        \textcolor{light-gray}{GitHub}&: \textit{sbondada}\\[0.1cm]
+                                                                        \textcolor{light-gray}{Skype}&: \textit{kaushalb09}
+                                                                    \end{tabular}\\[0.4cm]
+            \begin{tabular}{c|c|c}
+                \textit{sbondada@buffalo.edu}&\textit{716-622-8639}&\textit{www.kaushalbondada.me} 
+            \end{tabular}                                          &\ \ \textcolor{light-gray}{BitBucket}: \textit{sbondada}
+        \end{tabular}\\[0.6cm]
+        \textcolor{light-gray}{\hrulefill} 
+    \end{center} 
     \vspace{0pt}
     \begin{minipage}[t]{0.6\textwidth}
         \vspace{0pt}
+        \textcolor{light-gray}{\textbf{\large W\textsc{ork} E\textsc{xperience}}}
+        \vspace{10pt}\\
+        \begin{tabular}{c|c}
+            \textbf{\normalsize V\textsc{ision} A\textsc{nd} P\textsc{erpetual} M\textsc{achine} L\textsc{ab},UB}
+            &\textbf{\normalsize R\textsc{esearch} A\textsc{ssistant}}
+        \vspace{10pt}\\
+        \end{tabular}
         \blindtext
-
-        \blindtext
-
 
         \blindtext
 
