@@ -9,6 +9,7 @@
 \renewcommand{\familydefault}{\sfdefault}
 \renewcommand{\sfdefault}{pag}
 \usepackage[usenames,dvipsnames]{color}
+% a way to create new colors based on the source colors
 \definecolor{light-gray}{gray}{0.6}
 %this package is for the paragraph indentation "adjustwidth"
 \usepackage{changepage}
@@ -26,12 +27,15 @@
         \end{tabular}\\[0.6cm]
         \textcolor{light-gray}{\hrulefill} 
     \end{center} 
+    %this creates some extra vertical spaces
     \vspace{0pt}
+    % minipage is to create columns in the page the arguments are the textwidth, where the minipage is blocked
     \begin{minipage}[t]{0.63\textwidth}
         \vspace{0pt}
         \textcolor{light-gray}{\textbf{\large W\textsc{ork} E\textsc{xperience}}}
         \vspace{10pt}\\
         \begin{tabular}{c|c}
+            %\textsc is the tag for generating small caps letters
             \textbf{\normalsize V\textsc{ision} A\textsc{nd} P\textsc{erpetual} M\textsc{achine} L\textsc{ab},UB}
             &\textmd{\normalsize R\textsc{esearch} A\textsc{ssistant}}
         \end{tabular}\\
@@ -42,6 +46,7 @@
             \end{tabular}
         }\\ 
         \vspace{-4mm}
+        % adjust width is to align the whole paragraph by shifting left or right.it accepts two paarameters left and top spacing
         \begin{adjustwidth}{7pt}{0pt}
         {\footnotesize -Wrote code in C++ for one of the pipelines to our website "Video2Text.net", which can analyse 
     the video input based on the Computer Vision Algorithms to
@@ -99,7 +104,7 @@ summarize whats happening in the video based only on video input.}\\
         {\footnotesize -Contributed in constructing an inhouse
         Computer Vision Library.\\
         -Coded the whole tripartite graph module,Dense
-    Trajectory and integrated DPM based object detection code.}\\
+        Trajectory and integrated DPM based object detection code.}\\
         \end{adjustwidth}
         \begin{tabular}{c|c}
             \textbf{\normalsize S\textsc{poddit}}
@@ -162,7 +167,7 @@ summarize whats happening in the video based only on video input.}\\
         \textcolor{light-gray}{
             \begin{tabular}{c|c}
                 {\small S\textsc{eptember 2011}}
-                &{\small T\textsc{rivandrum},I\textsc{ndia}}
+                &{\small T\textsc{rivandrum}, I\textsc{ndia}}
             \end{tabular}
             \vspace{10pt}
         }\\ 
@@ -180,7 +185,7 @@ summarize whats happening in the video based only on video input.}\\
     \hspace{2ex}
     \begin{minipage}[t]{0.33\textwidth}
         \vspace{0pt}
-        \textcolor{light-gray}{\textbf{\large E\textsc{ucation}}}
+        \textcolor{light-gray}{\textbf{\large E\textsc{ducation}}}
         \vspace{10pt}\\
         \begin{tabular}{c|c}
             \textbf{\normalsize U\textsc{niversity} A\textsc{t} B\textsc{uffalo}}
@@ -263,7 +268,7 @@ summarize whats happening in the video based only on video input.}\\
         \begin{adjustwidth}{7pt}{0pt}
             {\footnotesize -The blog provides explanations or experiences on problems faced using certain tools due to lack
             of documentation or on some addons and things which can be done to use the tool more efficently.}\\
-            {\footnotesize -Discussions are usually on Vim, \LaTeX and Git. }
+            {\footnotesize -Discussions are usually on Vim, \LaTeX \  and Git. }
         \end{adjustwidth}
         \vspace{10pt}
         \begin{tabular}{c}
