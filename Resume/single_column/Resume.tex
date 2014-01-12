@@ -1,0 +1,329 @@
+\documentclass[10pt,a4paper,oneside]{article}
+\usepackage[a4paper,left=0.2in,right=0.2in,top=0.3in,bottom=0.2in]{geometry}   
+\usepackage{blindtext}
+%\usepackage{showframe} 
+\marginparwidth=0pt
+\marginparsep=0pt
+%this package includes a small set of fonts
+\usepackage{helvet}
+%this is to change the default set of fonts to the specified
+\renewcommand{\familydefault}{\sfdefault}
+\renewcommand{\sfdefault}{pag}
+\usepackage[usenames,dvipsnames]{color}
+% a way to create new colors based on the source colors
+\definecolor{light-gray}{gray}{0.6}
+%this package is for the paragraph indentation "adjustwidth"
+\usepackage{changepage}
+%\usepackage{cmll}
+% this is for enabling multi line comments
+\usepackage{verbatim}
+\begin{document}
+    \begin{center}
+        \begin{tabular}{cl}
+            {\Huge \textmd{Srinivasa Sai} \textbf{Kaushal Bondada}}&\begin{tabular}{ll}
+                                                                        \textcolor{light-gray}{GitHub}&: \textit{sbondada}\\[0.1cm]
+                                                                        \textcolor{light-gray}{Skype}&: \textit{kaushalb09}
+                                                                    \end{tabular}\\[0.35cm]
+            \begin{tabular}{c|c|c}
+                \textit{sbondada@buffalo.edu}&\textit{716-622-8639}&\textit{www.kaushalbondada.me} 
+            \end{tabular}                                          &\ \ \textcolor{light-gray}{BitBucket} : \textit{sbondada}
+        \end{tabular}\\[0.6cm]
+        \textcolor{light-gray}{\hrulefill} 
+    \end{center} 
+    %this creates some extra vertical spaces
+    \vspace{0pt}
+    % minipage is to create columns in the page the arguments are the textwidth, where the minipage is blocked
+    \vspace{0pt}
+    \textcolor{light-gray}{\textbf{\large W\textsc{ork} E\textsc{xperience}}}
+    \vspace{10pt}\\
+    \begin{tabular}{c|c}
+        %\textsc is the tag for generating small caps letters
+        \textbf{\normalsize V\textsc{ision} A\textsc{nd} P\textsc{erpetual} M\textsc{achine} L\textsc{ab},UB}
+        &\textmd{\normalsize R\textsc{esearch} A\textsc{ssistant}}
+    \end{tabular}\\
+    \textcolor{light-gray}{
+        \begin{tabular}{c|c}
+            {\small M\textsc{ay 2013}-P\textsc{resent}}
+           &{\small B\textsc{uffalo},NY}
+        \end{tabular}
+    }\\ 
+    \vspace{-4mm}
+    % adjust width is to align the whole paragraph by shifting left or right.it accepts two paarameters left and top spacing
+    \begin{adjustwidth}{7pt}{0pt}
+        {\footnotesize -Wrote code in C++ for one of the pipelines in the website "Video2Text.net", which can analyse 
+        the video input based on the Computer Vision Algorithms to
+        summarize whats happening in the video based only on video input.}\\
+    \end{adjustwidth}
+    \begin{tabular}{c|c}
+        \textbf{\normalsize T\textsc{hrift} S\textsc{ociety}}
+        &\textmd{\normalsize S\textsc{oftware} A\textsc{ssistant}}
+    \end{tabular}\\
+    \textcolor{light-gray}{
+        \begin{tabular}{c|c}
+            {\small M\textsc{ay 2011}-J\textsc{une 2011}}
+            &{\small V\textsc{isakhapatnam},I\textsc{ndia}}
+        \end{tabular}
+    }\\ 
+    \vspace{-4mm}
+    \begin{adjustwidth}{7pt}{0pt}
+        {\footnotesize -Analyzed the whole functionality of the company's money lending software model and implemented an enhanced security
+        model.\\
+    -Increased flexibility of the software by letting select even a single feature from the menu.}\\
+    \end{adjustwidth}
+    \textcolor{light-gray}{\textbf{\large P\textsc{rojects}}}
+    \vspace{10pt}\\
+    \begin{tabular}{c|c}
+        \textbf{\normalsize V\textsc{ideo}2T\textsc{ext}}
+        &\textmd{\normalsize C\textsc{++}}
+    \end{tabular}\\
+    \vspace{-4mm}
+    \begin{adjustwidth}{7pt}{0pt}
+        {\footnotesize -Coded one of the pipelines required
+        for the system.\\
+        -Works by detecting the entities and actions in the
+        video by using Computer Vision Algorithms and constructing a few
+        semantically meaningfull sentences describing the video
+        based on language models.}\\
+    \end{adjustwidth}
+    \begin{tabular}{c|c}
+        \textbf{\normalsize W\textsc{here}I\textsc{s}I\textsc{t}}
+        &\textmd{\normalsize P\textsc{ython}}
+    \end{tabular}\\
+     \vspace{-4mm}
+    \begin{adjustwidth}{7pt}{0pt}
+        {\footnotesize -A website for travel
+        enthusist.\\
+        -Works by crawling the popular image posting sites and
+        uses a wide array of API's to show a varied list of
+        information all gathered in a single place combined with
+        beautiful user interface. }\\
+    \end{adjustwidth}
+    \begin{tabular}{c|c}
+        \textbf{\normalsize J\textsc{ake}}
+        &\textmd{\normalsize C\textsc{++}}
+    \end{tabular}\\
+     \vspace{-4mm}
+    \begin{adjustwidth}{7pt}{0pt}
+        {\footnotesize -Contributed in constructing an inhouse
+        Computer Vision Library.\\
+        -Coded the whole tripartite graph module,Dense
+        Trajectory and integrated DPM based object detection code.}\\
+    \end{adjustwidth}
+    \begin{tabular}{c|c}
+        \textbf{\normalsize S\textsc{poddit}}
+        &\textmd{\normalsize P\textsc{ython}}
+    \end{tabular}\\
+     \vspace{-4mm}
+    \begin{adjustwidth}{7pt}{0pt}
+        {\footnotesize -Website for latest music
+        discovery and Spotify playlist generator.\\
+        -Works by crawling most of the Reddit's subreddits for
+        latest music albums and songs then using Spotify's API for
+        getting corresponding Spotify links.}\\
+    \end{adjustwidth}
+    \begin{tabular}{c|c}
+        \textbf{\normalsize D\textsc{atabase} Q\textsc{uery}
+        E\textsc{valuation} E\textsc{ngine}}
+        &\textmd{\normalsize J\textsc{ava}}
+    \end{tabular}\\
+     \vspace{-4mm}
+    \begin{adjustwidth}{7pt}{0pt}
+        {\footnotesize -Coded a SQL query Evaluation Engine.\\
+        -Works by parsing the database query and generating an evaluation plan in the form of tree and then evaluating the tree in the most efficient form using iterators.}\\
+    \end{adjustwidth}
+    \begin{tabular}{c|c}
+        \textbf{\normalsize S\textsc{impella}}
+        &\textmd{\normalsize J\textsc{ava}}
+    \end{tabular}\\
+     \vspace{-4mm}
+    \begin{adjustwidth}{7pt}{0pt}
+        {\footnotesize -Implemented a simplified version of the
+        Gnutella Protocol Version 0.6, A chatting and file transfer
+        system.\\
+        -Analyzed important networking concepts like routing tables, table lookup, controlled
+        flooding, protocol, packet formatting and distributive
+        collaboration.\\
+        -Included multitasking capabilities like simultaneous
+        downloads and monitoring}\\
+    \end{adjustwidth}
+    \textcolor{light-gray}{\textbf{\large P\textsc{ublications}}}
+    \vspace{10pt}\\
+    \begin{tabular}{c|c}
+        \textbf{\normalsize SEEPC: A T\textsc{oolbox}
+        F\textsc{or} S\textsc{oftware} E\textsc{ffort}
+    E\textsc{stimation}}
+        &\textmd{\normalsize IJCA}
+    \end{tabular}\\
+    \textcolor{light-gray}{
+        \begin{tabular}{c|c}
+            {\small O\textsc{ctober 2011}}
+            &{\small N\textsc{ew} Y\textsc{ork}, USA}
+        \end{tabular}
+    \vspace{10pt}
+    }\\ 
+    \begin{tabular}{c|c}
+        \textbf{\normalsize CPN: A H\textsc{ybrid}
+        M\textsc{odel} F\textsc{or} S\textsc{oftware}
+    C\textsc{ost} E\textsc{stimation}}
+        &\textmd{\normalsize RAICS, IEEE}
+    \end{tabular}\\
+    \textcolor{light-gray}{
+        \begin{tabular}{c|c}
+            {\small S\textsc{eptember 2011}}
+            &{\small T\textsc{rivandrum}, I\textsc{ndia}}
+        \end{tabular}
+        \vspace{10pt}
+    }\\ 
+    \begin{tabular}{c|c}
+        \textbf{\normalsize C\textsc{luster} A\textsc{nalysis} \& PSO F\textsc{or} S\textsc{oftware} C\textsc{ost} E\textsc{stimation}}
+        &\textmd{\normalsize ITMC, S\textsc{pringer}}
+    \end{tabular}\\
+    \textcolor{light-gray}{
+        \begin{tabular}{c|c}
+            {\small A\textsc{pril 2011}}
+            &{\small N\textsc{agpur}, I\textsc{ndia}}
+        \end{tabular}
+    }\\ 
+    \hspace{2ex}
+    \vspace{0pt}
+    \textcolor{light-gray}{\textbf{\large E\textsc{ducation}}}
+    \vspace{10pt}\\
+    \begin{tabular}{c}
+        \textbf{\normalsize U\textsc{niversity} A\textsc{t} B\textsc{uffalo}}
+    \end{tabular}\\
+    \textcolor{light-gray}{
+        \begin{tabular}{l}
+            {\small T\textsc{he} S\textsc{tate} U\textsc{niversity} O\textsc{f} N\textsc{ew} Y\textsc{ork}}
+        \end{tabular}
+    }\\ 
+    \begin{tabular}{l}
+        {\small J\textsc{une} 2014}\\
+        {\small Masters in Computer Science }\\
+        {\small GPA: 3.54 / 4.0}
+    \end{tabular}
+    \vspace{0pt}
+    \begin{adjustwidth}{7pt}{0pt}
+        {\small \textbf{Coursework}: (Name/Semester)}\\
+    \end{adjustwidth}
+    \vspace{-11pt}
+    \begin{adjustwidth}{7pt}{0pt}
+        \begin{tabular}{ll}
+            { \footnotesize Machine Learning } & {\footnotesize fall'12}\\                
+            { \footnotesize Modern Networking } & {\footnotesize fall'12}\\
+            { \footnotesize Programming Languages } & {\footnotesize fall'12}\\
+            { \footnotesize Software Engineering } & {\footnotesize fall'12}\\
+            { \footnotesize Pattern Recognition } & {\footnotesize spring'13}\\
+            { \footnotesize Analysis of Algorithms } & {\footnotesize spring'13}\\
+            { \footnotesize Database Systems } & {\footnotesize spring'13}\\
+            { \footnotesize Data Mining } & {\footnotesize fall'13}\\
+            %{ \footnotesize Masters Thesis } & {\footnotesize spring'14}
+        \end{tabular}
+    \end{adjustwidth}
+    \vspace{10pt}
+    \textcolor{light-gray}{\textbf{\large S\textsc{kills}}}
+    \vspace{10pt}\\
+    {\small
+    \begin{tabular}{ll}
+    \textbf{Languages}&{\footnotesize \hspace{-9pt} \begin{tabular}{l|l|l}Java&Python&C++\end{tabular}}\\
+        \textbf{Platforms}&{\footnotesize \hspace{-9pt} \begin{tabular}{l|l}Amazon AWS&Google Cloud\end{tabular}}\\
+        \textbf{OS}&{\footnotesize  \hspace{-9pt} \begin{tabular}{l|l}Linux&Windows\end{tabular}}\\
+        \textbf{Tools}&{\footnotesize  \hspace{-9pt} \begin{tabular}{l|l}Git&Vim\end{tabular}}\\
+        \textbf{Frameworks}&{\footnotesize \hspace{-9pt} \begin{tabular}{l|l}Hadoop&MapReduce\end{tabular}}\\
+        \textbf{Libraries}&{\footnotesize  \hspace{-9pt} \begin{tabular}{l|l|l}OpenCV&STL&J Collections\end{tabular}}\\
+        \textbf{Office Suite}&{\footnotesize \hspace{-9pt} \begin{tabular}{l|l}\LaTeX&MS Office\end{tabular}}\\
+    \end{tabular}
+    }
+    \vspace{10pt}\\
+    \textcolor{light-gray}{\textbf{\large A\textsc{dditional} E\textsc{xperience}}}
+    \vspace{10pt}\\
+    \begin{tabular}{l}
+        \textbf{\normalsize M\textsc{icrosoft} C\textsc{ertified} T\textsc{echnology}}\\
+        {\normalsize \textbf{S\textsc{pecialist} (MCTS)}}
+    \end{tabular}
+    \vspace{2pt}
+    \textcolor{light-gray}{
+        \begin{tabular}{c|c}
+            {\small J\textsc{anuary 2011}}
+            &{\small V\textsc{sakhapatnam}, I\textsc{ndia}}
+        \end{tabular}
+    }\\
+    \vspace{-12pt}
+    \begin{adjustwidth}{7pt}{0pt}
+        {\footnotesize -For Microsoft SQL Server 2005 - Implementation and Maintenance.}\\
+    \end{adjustwidth}
+    \vspace{-6pt} 
+    \textcolor{light-gray}{
+        \begin{tabular}{c|c}
+            {\small M\textsc{arch 2011}}
+            &{\small H\textsc{yderabad}, I\textsc{ndia}}
+        \end{tabular}
+    }\\
+    \vspace{-12pt}
+    \begin{adjustwidth}{7pt}{0pt}
+    {\footnotesize -For Microsoft .Net Framework - Application Development Foundation.}\\
+    \end{adjustwidth}
+    \begin{tabular}{c}
+        \textbf{\normalsize H\textsc{acathons}}
+    \end{tabular}\\
+    \begin{tabular}{c}
+        {\small UB\textsc{ hacking}}
+    \end{tabular}\\
+    \textcolor{light-gray}{
+        \begin{tabular}{c|c}
+            {\small A\textsc{pril 2013}}
+            &{\small B\textsc{uffalo}, NY}
+        \end{tabular}
+    }\\
+    \vspace{-12pt}
+    \begin{adjustwidth}{7pt}{0pt}
+        {\footnotesize  -Developed the website called "Spoddit".Got lots of appreciation for 
+        making the most professional looking website and also Spotify offered to post
+        about us in their website.}\\
+    \end{adjustwidth}
+    \vspace{-6pt}
+    \begin{tabular}{c}
+        {\small H\textsc{ack}P\textsc{rinceton}}
+    \end{tabular}\\
+    \textcolor{light-gray}{
+        \begin{tabular}{c|c}
+            {\small N\textsc{ovember 2013}}
+            &{\small P\textsc{rinceton}, NJ}
+        \end{tabular}
+    }\\
+    \vspace{-12pt}
+    \begin{adjustwidth}{7pt}{0pt}
+        {\footnotesize -Developed a website called "Whereisit".Got appreciations for implementing  the
+        most elegant user interface.}\\
+    \end{adjustwidth}
+    \begin{tabular}{c|c}
+        \textbf{\normalsize C\textsc{ode}M\textsc{agic}}
+        &\textmd{\normalsize B\textsc{logger}}
+    \end{tabular}\\
+    \textcolor{light-gray}{
+        \begin{tabular}{c|c}
+            {\small J\textsc{anuary 2014}-P\textsc{resent}}
+            &{\small B\textsc{uffalo}, NY}
+        \end{tabular}
+    }\\ 
+    \vspace{-4mm}
+    \begin{adjustwidth}{7pt}{0pt}
+        {\footnotesize -The blog provides explanations or experiences on problems faced using certain tools due to lack
+        of documentation or on some addons and things which can be done to use the tool more efficently.}\\
+        {\footnotesize -Discussions are usually on Vim, \LaTeX \  and Git. }
+    \end{adjustwidth}
+    \vspace{10pt}
+    \begin{comment}
+        \begin{tabular}{c}
+        \textbf{\normalsize A\textsc{ffiliations}}\\
+        \end{tabular}
+        \begin{adjustwidth}{7pt}{0pt}
+            {\footnotesize \textbf{International Society of Technical Education(09-12)} -Participated in several events and
+            organised a few events.}\\
+            {\footnotesize \textbf{Computer Society of India(09-12)} -Member since 2009,organised few workshops and
+        tutorial sessions.}
+            \vspace{0pt}\\
+        \end{adjustwidth} 
+        %{\small \textbf{Applicable Position}: FullTime}
+    \end{comment}
+\end{document}
+      
