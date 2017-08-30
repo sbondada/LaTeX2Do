@@ -17,6 +17,8 @@
 %\usepackage{cmll}
 % this is for enabling multi line comments
 \usepackage{verbatim}
+\usepackage{graphicx}
+\graphicspath{ {rsc/} }
 \begin{document}
     \begin{center}
         \begin{tabular}{cl}
@@ -39,20 +41,55 @@
         \vspace{10pt}\\
         \begin{tabular}{c|c}
             %\textsc is the tag for generating small caps letters
+            \textbf{\normalsize C\textsc{ox} A\textsc{utomotive} I\textsc{nc} ( Dealer.com )}
+            &\textmd{\normalsize J\textsc{ava} P\textsc{rogrammer}}
+        \end{tabular}\\
+        \textcolor{light-gray}{
+            \begin{tabular}{c|c}
+                {\small O\textsc{ctober 2015}-P\textsc{resent}}
+               &{\small B\textsc{urlington}, VT, USA}
+            \end{tabular}
+        }\\ 
+        \vspace{-4mm}
+        % adjust width is to align the whole paragraph by shifting left or right.it accepts two paarameters left and top spacing
+        \begin{adjustwidth}{7pt}{0pt}
+            {\footnotesize $\bullet$  Working on migrating the Web Platform to AWS from an onprem data center.\\
+            $\bullet$ Rearchitecting the legacy applications to be Cloud(AWS) compatible.\\
+        $\bullet$  Worked on improving the performance and reliability of the CMS (A large Distributed Content management System) by analyzing the metrics and problems faced by users. And also improving the design of the whole CMS codebase so that it can handle all 25000 websites reliably without downtime.}\\
+        \end{adjustwidth}
+        \begin{tabular}{c|c}
+            %\textsc is the tag for generating small caps letters
+            \textbf{\normalsize A\textsc{irsage} I\textsc{nc}}
+            &\textmd{\normalsize J\textsc{unior} S\textsc{oftware} D\textsc{eveloper}}
+        \end{tabular}\\
+        \textcolor{light-gray}{
+            \begin{tabular}{c|c}
+                {\small O\textsc{ctober 2014}-A\textsc{September 2015}}
+               &{\small A\textsc{tlanta}, GA, USA}
+            \end{tabular}
+        }\\ 
+        \vspace{-4mm}
+        % adjust width is to align the whole paragraph by shifting left or right.it accepts two paarameters left and top spacing
+        \begin{adjustwidth}{7pt}{0pt}
+            {\footnotesize $\bullet$ Improved the performance of the existing Position Determination Engine and ported the whole SQL code to python, So that we can develop and plug new code easily.\\
+            $\bullet$ Tested new Distributed Architectures like Cassandra and Impala on HDFS, so that we can have improved performance and support than our existing Architecture.}\\
+        \end{adjustwidth}
+        \begin{tabular}{c|c}
+            %\textsc is the tag for generating small caps letters
             \textbf{\normalsize V\textsc{ision} A\textsc{nd} P\textsc{erpetual} M\textsc{achine} L\textsc{ab},UB}
             &\textmd{\normalsize R\textsc{esearch} A\textsc{ssistant}}
         \end{tabular}\\
         \textcolor{light-gray}{
             \begin{tabular}{c|c}
-                {\small M\textsc{ay 2013}-P\textsc{resent}}
-               &{\small B\textsc{uffalo}, NY}
+                {\small M\textsc{ay 2013}-A\textsc{ugust 2014}}
+               &{\small B\textsc{uffalo}, NY, USA}
             \end{tabular}
         }\\ 
         \vspace{-4mm}
         % adjust width is to align the whole paragraph by shifting left or right.it accepts two paarameters left and top spacing
         \begin{adjustwidth}{7pt}{0pt}
             {\footnotesize $\bullet$ Coded state of the art computer vision projects like Jake, Video2Text.\\
-            $\bullet$ Worked with latest hardware and maintained 2 servers for our projects. }\\
+            $\bullet$ Worked with latest hardware and maintained 2 servers for our projects.}\\
         \end{adjustwidth}
         \begin{tabular}{c|c}
             \textbf{\normalsize T\textsc{hrift} S\textsc{ociety}}
@@ -61,18 +98,36 @@
         \textcolor{light-gray}{
             \begin{tabular}{c|c}
                 {\small M\textsc{ay 2011}-J\textsc{une 2011}}
-                &{\small V\textsc{isakhapatnam}, I\textsc{ndia}}
+                 &{\small V\textsc{isakhapatnam}, AP, I\textsc{ndia}}
             \end{tabular}
         }\\ 
         \vspace{-4mm}
         \begin{adjustwidth}{7pt}{0pt}
             {\footnotesize $\bullet$ Analyzed the whole functionality of company's money lending software model and implemented an enhanced security
             model.\\
-        $\bullet$ Increased flexibility of software by allowing selection of individual feature from the control box, resulting in atmost
+        $\bullet$ Increased flexibility of software by allowing selection of individual feature from the control box, resulting in utmost
     customizability.}\\
         \end{adjustwidth}
         \textcolor{light-gray}{\textbf{\large P\textsc{rojects}}}
         \vspace{10pt}\\
+        \begin{tabular}{c|c}
+            \textbf{\normalsize C\textsc{ms}-S\textsc{elector}}
+            &\textmd{\normalsize J\textsc{ava}}
+        \end{tabular}\\
+         \vspace{-4mm}
+        \begin{adjustwidth}{7pt}{0pt}
+            {\footnotesize $\bullet$  Developed an inhouse load balancer which works along with the F5 load balancer to route requests using consistent hashing so we can take advantage of the local caches.\\ 
+            $\bullet$ The application also handles some custom request interceptions so it can manipulate the request and set cookies before being served by CMS.}\\ 
+        \end{adjustwidth}
+        \begin{tabular}{c|c}
+            \textbf{\normalsize C\textsc{ms}-R\textsc{eporter}}
+            &\textmd{\normalsize P\textsc{ython}}
+        \end{tabular}\\
+         \vspace{-4mm}
+        \begin{adjustwidth}{7pt}{0pt}
+            {\footnotesize $\bullet$ Developed an application to generate multiple kinds of reports aggregating daily, monthly performance of platform and Downtime information of the platform , Summarizing it as an email so the stakeholders can have insights on how the platform is performing.\\ 
+            $\bullet$ This application also publishes the summarized information into New Relic so we can query it later.}\\
+        \end{adjustwidth}
         \begin{tabular}{c|c}
             \textbf{\normalsize V\textsc{ideo}2T\textsc{ext}}
             &\textmd{\normalsize C\textsc{++}}
@@ -81,16 +136,7 @@
         \begin{adjustwidth}{7pt}{0pt}
             {\footnotesize $\bullet$ Coded one of the essential pipelines for system and formulated an improved way of text generation.\\
             $\bullet$ Improved efficiency of the pipeline and managed to include up to 4 domains, resulted in almost real time output in
-        under 5 min. }\\ 
-        \end{adjustwidth}
-        \begin{tabular}{c|c}
-            \textbf{\normalsize W\textsc{here}I\textsc{s}I\textsc{t}}
-            &\textmd{\normalsize P\textsc{ython}}
-        \end{tabular}\\
-         \vspace{-4mm}
-        \begin{adjustwidth}{7pt}{0pt}
-            {\footnotesize $\bullet$ Coded backend for system, which is specifically constructed for travel enthusiasts.\\ 
-            $\bullet$ Implemented system using more than 10 different API's each used to gather different information.}\\ 
+        under 5 min.}\\ 
         \end{adjustwidth}
         \begin{tabular}{c|c}
             \textbf{\normalsize J\textsc{ake}}
@@ -103,80 +149,16 @@
             $\bullet$ Coded the whole tripartite graph module, Dense Trajectory and integrated DPM based object detection code.}\\
         \end{adjustwidth}
         \begin{tabular}{c|c}
-            \textbf{\normalsize S\textsc{poddit}}
-            &\textmd{\normalsize P\textsc{ython}}
-        \end{tabular}\\
-         \vspace{-4mm}
-        \begin{adjustwidth}{7pt}{0pt}
-            {\footnotesize $\bullet$ Coded a website for discovering latest music and automated playlist creation.\\ 
-            $\bullet$ Implemented using Reddit's API to crawl most of its subreddits for latest music albums and then used Spotify's API for
-            getting corresponding Spotify links.}\\
-        \end{adjustwidth}
-        \begin{tabular}{c|c}
             \textbf{\normalsize D\textsc{atabase} Q\textsc{uery}
             E\textsc{valuation} E\textsc{ngine}}
             &\textmd{\normalsize J\textsc{ava}}
         \end{tabular}\\
          \vspace{-4mm}
         \begin{adjustwidth}{7pt}{0pt}
-            {\footnotesize $\bullet$ Coded a fully functional SQL query Evaluation Engine.\\
-            $\bullet$ Parsed the database query and generated an evaluation plan in the form of tree resulting in almost
+            {\footnotesize $\bullet$ Coded a fully functional SQL query Evaluation Engine by Parsing the database query and generating an evaluation plan resulting in almost
             50\% improvement in efficiency.}\\
         \end{adjustwidth}
-        \begin{tabular}{c|c}
-            \textbf{\normalsize S\textsc{impella}}
-            &\textmd{\normalsize J\textsc{ava}}
-        \end{tabular}\\
-         \vspace{-4mm}
-        \begin{adjustwidth}{7pt}{0pt}
-            {\footnotesize $\bullet$ Implemented a simplified version of the
-            Gnutella Protocol Version 0.6, A chatting and file transfer
-            system.\\
-            $\bullet$ Analyzed important networking concepts like routing tables, table lookup, controlled
-            flooding, protocol, packet formatting and distributive
-            collaboration.\\
-            $\bullet$ Included multitasking capabilities like simultaneous
-            downloads and monitoring.}\\
-        \end{adjustwidth}
-        \textcolor{light-gray}{\textbf{\large P\textsc{ublications}}}
-        \vspace{10pt}\\
-        \begin{tabular}{c|c}
-            \textbf{\normalsize SEEPC: A T\textsc{oolbox}
-            F\textsc{or} S\textsc{oftware} E\textsc{ffort}
-        E\textsc{stimation}}
-            &\textmd{\normalsize IJCA}
-        \end{tabular}\\
-        \textcolor{light-gray}{
-            \begin{tabular}{c|c}
-                {\small O\textsc{ctober 2011}}
-                &{\small N\textsc{ew} Y\textsc{ork}, USA}
-            \end{tabular}
-        \vspace{10pt}
-        }\\ 
-        \begin{tabular}{c|c}
-            \textbf{\normalsize CPN: A H\textsc{ybrid}
-            M\textsc{odel} F\textsc{or} S\textsc{oftware}
-        C\textsc{ost} E\textsc{stimation}}
-            &\textmd{\normalsize RAICS, IEEE}
-        \end{tabular}\\
-        \textcolor{light-gray}{
-            \begin{tabular}{c|c}
-                {\small S\textsc{eptember 2011}}
-                &{\small T\textsc{rivandrum}, I\textsc{ndia}}
-            \end{tabular}
-            \vspace{10pt}
-        }\\ 
-        \begin{tabular}{c|c}
-            \textbf{\normalsize C\textsc{luster} A\textsc{nalysis} \& PSO F\textsc{or} S\textsc{oftware} C\textsc{ost} E\textsc{stimation}}
-            &\textmd{\normalsize ITMC, S\textsc{pringer}}
-        \end{tabular}\\
-        \textcolor{light-gray}{
-            \begin{tabular}{c|c}
-                {\small A\textsc{pril 2011}}
-                &{\small N\textsc{agpur}, I\textsc{ndia}}
-            \end{tabular}
-        }\\ 
-    \end{minipage}
+   \end{minipage}
     \hspace{2ex}
     \begin{minipage}[t]{0.33\textwidth}
         \vspace{0pt}
@@ -214,6 +196,20 @@
             \end{tabular}
         \end{adjustwidth}
         \vspace{10pt}
+        \begin{tabular}{c}
+            \textbf{\normalsize  G\textsc{itam} U\textsc{niversity}}
+        \end{tabular}\\
+        \textcolor{light-gray}{
+            \begin{tabular}{l}
+                {\small G\textsc{andhi} I\textsc{nstitute} O\textsc{f} T\textsc{ech} A\textsc{nd} M\textsc{gmt}}
+            \end{tabular}
+        } 
+        \begin{tabular}{l}
+            {\small A\textsc{pril} 2012}\\
+            {\small Bachelors in Computer Science }\\
+            {\small GPA: 8.86 / 10.0}
+            \vspace{10pt}
+        \end{tabular}\\
              %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         \begin{comment}
         \textcolor{light-gray}{\textbf{\large S\textsc{kills}}}
@@ -237,108 +233,67 @@
         \vspace{10pt}\\
         {\small
         \begin{tabular}{ll}
-        \textbf{Languages}&{\footnotesize \hspace{-9pt} \begin{tabular}{l|l|l}Java&Python&C++\end{tabular}}\\
-            \textbf{Platforms}&{\footnotesize \hspace{-9pt} \begin{tabular}{l|l}Amazon AWS&Google Cloud\end{tabular}}\\
-            \textbf{OS}&{\footnotesize  \hspace{-9pt} \begin{tabular}{l|l}Linux&Windows\end{tabular}}\\
-            \textbf{Tools}&{\footnotesize  \hspace{-9pt} \begin{tabular}{l|l}Git&Vim\end{tabular}}\\
-            \textbf{Frameworks}&{\footnotesize \hspace{-9pt} \begin{tabular}{l|l}Hadoop&MapReduce\end{tabular}}\\
+            \textbf{Language}&{\footnotesize \hspace{-9pt} \begin{tabular}{l|l|l}Java&Python&C++\end{tabular}}\\
+            \textbf{Platform}&{\footnotesize \hspace{-9pt} \begin{tabular}{l|l}Amazon AWS&DataCenter\end{tabular}}\\
+            \textbf{Database}&{\footnotesize  \hspace{-9pt} \begin{tabular}{l|l|l}MySql&MongoDB&Graphite\end{tabular}}\\
+            \textbf{Monitoring}&{\footnotesize  \hspace{-9pt} \begin{tabular}{l|l}New Relic&SumoLogic\end{tabular}}\\
+            \textbf{Tools}&{\footnotesize  \hspace{-9pt} \begin{tabular}{l|l|l}Git&Vim&Maven\end{tabular}}\\
+            \textbf{Frameworks}&{\footnotesize \hspace{-9pt} \begin{tabular}{l|l|l}Hadoop&Spring&Hibernate\end{tabular}}\\
+            \textbf{IDE}&{\footnotesize \hspace{-9pt} \begin{tabular}{l|l|l}Eclipse&IntelliJ&PyCharm\end{tabular}}\\
             \textbf{Libraries}&{\footnotesize  \hspace{-9pt} \begin{tabular}{l|l|l}OpenCV&STL&J Collections\end{tabular}}\\
             \textbf{Office Suite}&{\footnotesize \hspace{-9pt} \begin{tabular}{l|l}\LaTeX&MS Office\end{tabular}}\\
+            \textbf{OS}&{\footnotesize  \hspace{-9pt} \begin{tabular}{l|l}Linux&Mac OS\end{tabular}}\\
         \end{tabular}
         }
         %\end{comment}
         %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
         \vspace{10pt}\\
-        \textcolor{light-gray}{\textbf{\large A\textsc{dditional} E\textsc{xperience}}}
+        \textcolor{light-gray}{\textbf{\large P\textsc{ublications}}}
         \vspace{10pt}\\
-        \begin{tabular}{l}
-            \textbf{\normalsize M\textsc{icrosoft} C\textsc{ertified} T\textsc{echnology}}\\
-            {\normalsize \textbf{S\textsc{pecialist} (MCTS)}}
+        \begin{tabular}{c}
+            \textbf{\normalsize SEEPC: A T\textsc{oolbox}
+            F\textsc{or} S\textsc{oftware} E\textsc{ffort}}
         \end{tabular}
-        \vspace{2pt}
-        \textcolor{light-gray}{
-            \begin{tabular}{c|c}
-                {\small J\textsc{anuary 2011}}
-                &{\small V\textsc{isakhapatnam}, I\textsc{ndia}}
-            \end{tabular}
-        }\\
-        \vspace{-12pt}
-        \begin{adjustwidth}{7pt}{0pt}
-            {\footnotesize $\bullet$ For Microsoft SQL Server 2005 - Implementation and Maintenance}\\
-        \end{adjustwidth}
-        \vspace{-6pt} 
-        \textcolor{light-gray}{
-            \begin{tabular}{c|c}
-                {\small M\textsc{arch 2011}}
-                &{\small H\textsc{yderabad}, I\textsc{ndia}}
-            \end{tabular}
-        }\\
-        \vspace{-12pt}
-        \begin{adjustwidth}{7pt}{0pt}
-        {\footnotesize $\bullet$ For Microsoft .Net Framework - Application Development Foundation}\\
-        \end{adjustwidth}
         \begin{tabular}{c}
-            \textbf{\normalsize H\textsc{acathons}}
-        \end{tabular}\\
-        \begin{tabular}{c}
-            {\small UB\textsc{ hacking}}
-        \end{tabular}\\
+            \textbf{E\textsc{stimation}}
+       \end{tabular}
         \textcolor{light-gray}{
-            \begin{tabular}{c|c}
-                {\small A\textsc{pril 2013}}
-                &{\small B\textsc{uffalo}, NY}
-            \end{tabular}
-        }\\
-        \vspace{-12pt}
-        \begin{adjustwidth}{7pt}{0pt}
-            {\footnotesize  $\bullet$ Developed website called "Spoddit" with a beautiful user interface resulting in lots of appreciation for making the most professional looking website. Spotify also  offered to post about us in their website.}\\
-        \end{adjustwidth}
-        \vspace{-6pt}
-        \begin{tabular}{c}
-            {\small H\textsc{ack}P\textsc{rinceton}}
-        \end{tabular}\\
-        \textcolor{light-gray}{
-            \begin{tabular}{c|c}
-                {\small N\textsc{ovember 2013}}
-                &{\small P\textsc{rinceton}, NJ}
-            \end{tabular}
-        }\\
-        \vspace{-12pt}
-        \begin{adjustwidth}{7pt}{0pt}
-            {\footnotesize $\bullet$ Developed a website called "Whereisit" with an elegant user interface.}\\
-        \end{adjustwidth}
-        \begin{tabular}{c|c}
-            \textbf{\normalsize C\textsc{ode}M\textsc{agic}}
-            &\textmd{\normalsize B\textsc{logger}}
-        \end{tabular}\\
-        \textcolor{light-gray}{
-            \begin{tabular}{c|c}
-                {\small J\textsc{anuary 2014}-P\textsc{resent}}
-                &{\small B\textsc{uffalo}, NY}
+            \begin{tabular}{c|c|c}
+                \textmd{\normalsize IJCA}
+                &{\small O\textsc{ct 2011}}
+                &{\small N\textsc{ew} Y\textsc{ork}, USA}
             \end{tabular}
         }\\ 
-        \vspace{-4mm}
-        \begin{adjustwidth}{7pt}{0pt}
-            {\footnotesize $\bullet$ Blogged explanations or experiences on problems faced using certain tools due to lack
-            of documentation or on some add-ons and things which can be done to use the tool more efficiently.}\\
-            {\footnotesize $\bullet$ Discussions are usually on Vim, \LaTeX \  and Git. }
-        \end{adjustwidth}
-        \vspace{10pt}
-        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-        \begin{comment}
-            \begin{tabular}{c}
-            \textbf{\normalsize A\textsc{ffiliations}}\\
+        \begin{tabular}{c}
+            \textbf{\normalsize CPN: A H\textsc{ybrid}
+            M\textsc{odel} F\textsc{or} S\textsc{oftware}}\\
+        \end{tabular}
+        \begin{tabular}{c}
+            \textbf{C\textsc{ost} E\textsc{stimation}}
+        \end{tabular}
+        \textcolor{light-gray}{
+            \begin{tabular}{c|c|c}
+                 {\small RAICS, IEEE}
+                &{\small S\textsc{ept 2011}}
+                &{\small T\textsc{rivandrum}, I\textsc{nd}}
             \end{tabular}
-            \begin{adjustwidth}{7pt}{0pt}
-                {\footnotesize \textbf{International Society of Technical Education(09-12)} -Participated in several events and
-                organised a few events.}\\
-                {\footnotesize \textbf{Computer Society of India(09-12)} -Member since 2009,organised few workshops and
-            tutorial sessions.}
-                \vspace{0pt}\\
-            \end{adjustwidth} 
-            %{\small \textbf{Applicable Position}: FullTime}
-        \end{comment}
-        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        }\\
+        \begin{tabular}{c}
+       	    \textbf{\normalsize C\textsc{luster} A\textsc{nalysis} \& PSO F\textsc{or} S\textsc{oftware}}
+        \end{tabular}
+        \begin{tabular}{c}
+            \textbf{C\textsc{ost} E\textsc{stimation}}
+        \end{tabular}
+        \textcolor{light-gray}{
+            \begin{tabular}{c|c|c}
+                \textmd{\normalsize ITMC, S\textsc{pringer}}
+                &{\small A\textsc{pr 2011}}
+                &{\small N\textsc{agpur}, I\textsc{nd}}
+            \end{tabular}
+        }
+        \begin{center}
+            \includegraphics[scale=0.4]{website_qr_code}
+        \end{center}
     \end{minipage}
 \end{document}
       
